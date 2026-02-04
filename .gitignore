@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+venv/
+.env
+
+.vscode/
+
+lang/
+chatbot_by_pytorch/
+ragHuggingPhase/

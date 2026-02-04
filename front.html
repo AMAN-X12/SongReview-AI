@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LyricalGuard AI | Content Moderator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lyrical<span>Guard</span> AI</h1>
+            <p>Advanced BERT-powered song safety analysis</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="lyricsInput" placeholder="Paste song lyrics in english here..."></textarea>
+                <button id="analyzeBtn" onclick="checkSong()">Analyze Lyrics</button>
+            </div>
+
+            <div id="loader" class="hidden">Scanning with BERT Model...</div>
+
+            <div id="resultsSection" class="hidden">
+                <h3>Analysis Results</h3>
+                <div id="resultsList"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
