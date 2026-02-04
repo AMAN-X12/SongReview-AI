@@ -7,3 +7,11 @@ Cosine Similarity Scoring: Measures how closely lyrics align with specific safet
 
 Full-Stack Integration: Features a high-performance FastAPI backend and a modern Glassmorphism Web UI.
 
+USED:
+AI/ML: Python, PyTorch, Hugging Face Transformers.
+
+Backend: FastAPI, Uvicorn (ASGI Server).
+
+Frontend: HTML5, CSS3, Vanilla JavaScript (Fetch API).
+
+Tools: Git, Regex for text preprocessing.
